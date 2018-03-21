@@ -7,21 +7,22 @@ Keep your Telegram Always Online.
 
 # 背景
 
-Don't let others peak on your daily routine with recent online! So keep yourself always online. XD
-如果你不想被人通过在线时间判断作息规律，那就让自己一直保持在线吧！
-（这样子就算你让所有人看见你的在线时间也无所谓咯，同时你还可以看到别人的）
+Don't let others peak on your daily routine with recent online! So keep yourself always online. XD  
+如果你不想被人通过在线时间判断作息规律，那就让自己一直保持在线吧！  
+（这样子就算你让所有人看见你的在线时间也无所谓咯，同时你还可以看到别人的）  
 
 # 需求 Prerequisite
 
-`PYTHON3`
-`一台可以连接到Telegram的服务器`
+`PYTHON3`  
+`一台可以连接到Telegram的服务器`  
 
-需要包：`Telethon`
-使用这个指令直接安装到全局 | Install package globally with ：`pip3 install telethon`
+需要包：`Telethon`  
+使用这个指令直接安装到全局 | Install package globally with ：`pip3 install telethon`  
 
 # 如何使用？ How to use
 
 - 首先，你需要一个 `Client Token`(这个可以在 https://my.telegram.org 申请)
+    - 教程：https://github.com/NeverBehave/AlwaysOnline-/blob/master/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/%E5%A6%82%E4%BD%95%E7%94%B3%E8%AF%B7Client%20Token.md
 - `git clone https://github.com/NeverBehave/AlwaysOnline-` 或者下载压缩包解压
 - 将 `api_id` 和 `api_hash` 填入 `data.py` 适当的位置
     - Fill in your id and hash @ `data.py`
@@ -39,7 +40,7 @@ Don't let others peak on your daily routine with recent online! So keep yourself
 
 # 原理 How it works
 
-Send an online status message to Telegram periodically. Your actions are not necessary change your online status.
-间歇性的给 Telegram 发送你在线的信息，实际上你发送信息并不意味着你上线，只有你主动改变了你的状态
-How weird Telegram API is.
-这就是为什么 Telegram 的 API 很奇怪
+Send an online status message to Telegram periodically. Your actions are not necessary change your online status.  
+间歇性的给 Telegram 发送你在线的信息，实际上你发送信息并不意味着你上线，只有你主动改变了你的状态  
+How weird Telegram API is.  
+这就是为什么 Telegram 的 API 很奇怪  
