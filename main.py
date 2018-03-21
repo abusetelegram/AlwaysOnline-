@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import logging
 from login import client
 from telethon.tl.functions.account import UpdateStatusRequest
