@@ -35,7 +35,7 @@ Don't let others peak on your daily routine with recent online! So keep yourself
 - 不要在**不安全**的地方部署这个脚本，妥善地保管好目录下的`Session`文件，否则相当于给予**任何人访问你的账号的权限** 
     - Take good care of the `session` file under this directory, or your account will be at risk.
 - 这个脚本不会使你的消息变为已读，你不会在日常使用中察觉到脚本的存在
-    - You can still use your account normally. Nothing else will change (Massge count, etc.).
+    - You can still use your account normally. Nothing else will change (Message count, etc.).
      
 
 # 原理 How it works
