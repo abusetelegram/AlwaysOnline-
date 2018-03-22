@@ -4,4 +4,4 @@
 
 api_id = 123456  # Your ID here | 请替换为你的id
 api_hash = 'Your Token Here | 请填写API_Hash'
-delay = 120  # Second
+delay = 15  # Second
