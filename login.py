@@ -11,7 +11,7 @@ if api_id == '' or api_hash == '':
     logging.fatal("You must assign a API before using this script! 在登录前你必须给定ID和HASH @ data.py")
 
 logging.info("Trying to Login to Telegram... 正在尝试登录...")
-client = TelegramClient('session_file', api_id, api_hash, update_workers=1, spawn_read_thread=False)
+client = TelegramClient('session_file', api_id, api_hash, spawn_read_thread=False)
 
 client.connect()
 if client.is_user_authorized() is not True:
