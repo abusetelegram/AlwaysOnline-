@@ -17,7 +17,7 @@ Don't let others peak on your daily routine with recent online! So keep yourself
 `一台可以连接到Telegram的服务器`  
 
 需要包：`Telethon`  
-使用这个指令直接安装到全局 | Install package globally with ：`pip3 install telethon`  
+使用这个指令直接安装到全局 | Install package globally with ：`pip3 install telethon==0.19.1.6`  
 
 # 如何使用？ How to use
 
